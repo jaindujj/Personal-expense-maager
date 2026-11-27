@@ -1,0 +1,19 @@
+﻿Analyzing personal_expense_manager...                           
+
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\main.dart:198:11 - deprecated_member_use
+  error - The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  - lib\main.dart:200:20 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:338:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:341:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:353:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:421:56 - deprecated_member_use
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\main.dart:685:15 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\main.dart:736:75 - deprecated_member_use
+   info - Unnecessary use of string interpolation - lib\main.dart:921:22 - unnecessary_string_interpolations
+   info - Statements in a for should be enclosed in a block - lib\main.dart:944:35 - curly_braces_in_flow_control_structures
+   info - The imported package 'sqflite_common_ffi' isn't a dependency of the importing package - test\widget_test.dart:4:8 - depend_on_referenced_packages
+  error - Target of URI doesn't exist: 'package:sqflite_common_ffi/sqflite_ffi.dart' - test\widget_test.dart:4:8 - uri_does_not_exist
+  error - The function 'sqfliteFfiInit' isn't defined - test\widget_test.dart:10:5 - undefined_function
+  error - Undefined name 'databaseFactory' - test\widget_test.dart:11:5 - undefined_identifier
+  error - Undefined name 'databaseFactoryFfi' - test\widget_test.dart:11:23 - undefined_identifier
+  error - Undefined name 'MainNavigation' - test\widget_test.dart:24:24 - undefined_identifier
+
